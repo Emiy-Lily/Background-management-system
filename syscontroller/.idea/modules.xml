@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/syscontroller.iml" filepath="$PROJECT_DIR$/syscontroller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/syscontroller_dao/syscontroller_dao.iml" filepath="$PROJECT_DIR$/syscontroller_dao/syscontroller_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/syscontroller_domain/syscontroller_domain.iml" filepath="$PROJECT_DIR$/syscontroller_domain/syscontroller_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/syscontroller_service/syscontroller_service.iml" filepath="$PROJECT_DIR$/syscontroller_service/syscontroller_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/syscontroller_utils/syscontroller_utils.iml" filepath="$PROJECT_DIR$/syscontroller_utils/syscontroller_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/syscontroller_web/syscontroller_web.iml" filepath="$PROJECT_DIR$/syscontroller_web/syscontroller_web.iml" />
+    </modules>
+  </component>
+</project>
