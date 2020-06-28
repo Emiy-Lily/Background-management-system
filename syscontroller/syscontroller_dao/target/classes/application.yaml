@@ -8,6 +8,7 @@ spring:
       minimum-idle: 10
     driver-class-name: com.mysql.cj.jdbc.Driver
   application:
-    name: user-service # Ӧ������
+    name: user-service
 mybatis:
   type-aliases-package: com.study.demo.pojo
+

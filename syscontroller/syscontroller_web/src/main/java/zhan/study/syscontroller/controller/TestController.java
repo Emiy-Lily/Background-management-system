@@ -4,10 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 import zhan.study.syscontroller.domain.UserTest;
 import zhan.study.syscontroller.service.TestService;
-
-import javax.annotation.Resource;
 
 /**
  * @author
@@ -16,15 +15,17 @@ import javax.annotation.Resource;
  * @version: 1.0.0$
  */
 @RestController
-@RequestMapping("test")
+@RequestMapping()
 public class TestController {
 
     @Autowired
     private TestService testService;
 
-    @GetMapping("/quick")
-    public String quick(){
-        return "springboot start";
+    @GetMapping("/index")
+    public ModelAndView quick(){
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("index");
+        return mv;
     }
 
     @GetMapping("/quick2")

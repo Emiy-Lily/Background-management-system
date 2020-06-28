@@ -8,6 +8,15 @@ spring:
       minimum-idle: 10
     driver-class-name: com.mysql.cj.jdbc.Driver
   application:
-    name: user-service # Ӧ������
+    name: user-service
+  mvc:
+    static-path-pattern: /static/**
+    view:
+      prefix:
+      suffix: .jsp
+  resources:
+    static-locations: classpath:/static
 mybatis:
   type-aliases-package: com.study.demo.pojo
+# 静态资源配置 默认值为 /**
+# 默认值为 classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
